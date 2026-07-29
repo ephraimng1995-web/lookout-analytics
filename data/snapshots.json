@@ -1,0 +1,77 @@
+{
+  "lastRunAt": "2026-07-29T21:20:00.000Z",
+  "profiles": [
+    {
+      "id": "ig-jaysiejay2",
+      "platform": "Instagram",
+      "handle": "@jaysiejay2",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "followers": 15,
+      "following": 12,
+      "postCount": 11,
+      "history": [
+        {
+          "date": "2026-07-29",
+          "followers": 15,
+          "following": 12,
+          "postCount": 11
+        }
+      ]
+    },
+    {
+      "id": "ig-thisisannacarlita",
+      "platform": "Instagram",
+      "handle": "@thisisannacarlita",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "followers": 3929,
+      "following": 1,
+      "postCount": 135,
+      "history": [
+        {
+          "date": "2026-07-29",
+          "followers": 3929,
+          "following": 1,
+          "postCount": 135
+        }
+      ]
+    },
+    {
+      "id": "ig-the-jacky-chen",
+      "platform": "Instagram",
+      "handle": "@the.jacky.chen",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "followers": 31000,
+      "following": 402,
+      "postCount": 214,
+      "history": [
+        {
+          "date": "2026-07-29",
+          "followers": 31000,
+          "following": 402,
+          "postCount": 214
+        }
+      ]
+    },
+    {
+      "id": "ig-jackychendaily",
+      "platform": "Instagram",
+      "handle": "@jackychendaily",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "followers": 33000,
+      "following": 381,
+      "postCount": 285,
+      "history": [
+        {
+          "date": "2026-07-29",
+          "followers": 33000,
+          "following": 381,
+          "postCount": 285
+        }
+      ]
+    }
+  ]
+}
