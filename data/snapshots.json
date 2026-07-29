@@ -1,11 +1,11 @@
 {
-  "lastRunAt": "2026-07-29T21:20:00.000Z",
+  "lastRunAt": "2026-07-29T18:10:15.909Z",
   "profiles": [
     {
       "id": "ig-jaysiejay2",
       "platform": "Instagram",
       "handle": "@jaysiejay2",
-      "status": "ok",
+      "status": "delayed",
       "lastCheckedAt": "2026-07-29T21:20:00.000Z",
       "followers": 15,
       "following": 12,
@@ -17,13 +17,15 @@
           "following": 12,
           "postCount": 11
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "error": "Instagram returned HTTP 429"
     },
     {
       "id": "ig-thisisannacarlita",
       "platform": "Instagram",
       "handle": "@thisisannacarlita",
-      "status": "ok",
+      "status": "delayed",
       "lastCheckedAt": "2026-07-29T21:20:00.000Z",
       "followers": 3929,
       "following": 1,
@@ -35,13 +37,15 @@
           "following": 1,
           "postCount": 135
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "error": "Instagram returned HTTP 429"
     },
     {
       "id": "ig-the-jacky-chen",
       "platform": "Instagram",
       "handle": "@the.jacky.chen",
-      "status": "ok",
+      "status": "delayed",
       "lastCheckedAt": "2026-07-29T21:20:00.000Z",
       "followers": 31000,
       "following": 402,
@@ -53,13 +57,15 @@
           "following": 402,
           "postCount": 214
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "error": "Instagram returned HTTP 429"
     },
     {
       "id": "ig-jackychendaily",
       "platform": "Instagram",
       "handle": "@jackychendaily",
-      "status": "ok",
+      "status": "delayed",
       "lastCheckedAt": "2026-07-29T21:20:00.000Z",
       "followers": 33000,
       "following": 381,
@@ -71,7 +77,9 @@
           "following": 381,
           "postCount": 285
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "error": "Instagram returned HTTP 429"
     }
   ]
 }
