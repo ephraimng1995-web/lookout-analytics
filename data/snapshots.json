@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-07-29T18:10:15.909Z",
+  "lastRunAt": "2026-07-29T18:14:28.636Z",
   "profiles": [
     {
       "id": "ig-jaysiejay2",
@@ -18,7 +18,7 @@
           "postCount": 11
         }
       ],
-      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
       "error": "Instagram returned HTTP 429"
     },
     {
@@ -38,7 +38,7 @@
           "postCount": 135
         }
       ],
-      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
       "error": "Instagram returned HTTP 429"
     },
     {
@@ -58,7 +58,7 @@
           "postCount": 214
         }
       ],
-      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
       "error": "Instagram returned HTTP 429"
     },
     {
@@ -78,7 +78,7 @@
           "postCount": 285
         }
       ],
-      "lastAttemptAt": "2026-07-29T18:10:15.909Z",
+      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
       "error": "Instagram returned HTTP 429"
     }
   ]
