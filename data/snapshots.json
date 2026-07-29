@@ -1,12 +1,12 @@
 {
-  "lastRunAt": "2026-07-29T18:14:28.636Z",
+  "lastRunAt": "2026-07-29T18:16:46.000Z",
   "profiles": [
     {
       "id": "ig-jaysiejay2",
       "platform": "Instagram",
       "handle": "@jaysiejay2",
-      "status": "delayed",
-      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T18:16:46.000Z",
       "followers": 15,
       "following": 12,
       "postCount": 11,
@@ -17,16 +17,14 @@
           "following": 12,
           "postCount": 11
         }
-      ],
-      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
-      "error": "Instagram returned HTTP 429"
+      ]
     },
     {
       "id": "ig-thisisannacarlita",
       "platform": "Instagram",
       "handle": "@thisisannacarlita",
-      "status": "delayed",
-      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T18:16:46.000Z",
       "followers": 3929,
       "following": 1,
       "postCount": 135,
@@ -37,16 +35,14 @@
           "following": 1,
           "postCount": 135
         }
-      ],
-      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
-      "error": "Instagram returned HTTP 429"
+      ]
     },
     {
       "id": "ig-the-jacky-chen",
       "platform": "Instagram",
       "handle": "@the.jacky.chen",
-      "status": "delayed",
-      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T18:16:46.000Z",
       "followers": 31000,
       "following": 402,
       "postCount": 214,
@@ -57,16 +53,14 @@
           "following": 402,
           "postCount": 214
         }
-      ],
-      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
-      "error": "Instagram returned HTTP 429"
+      ]
     },
     {
       "id": "ig-jackychendaily",
       "platform": "Instagram",
       "handle": "@jackychendaily",
-      "status": "delayed",
-      "lastCheckedAt": "2026-07-29T21:20:00.000Z",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-29T18:16:46.000Z",
       "followers": 33000,
       "following": 381,
       "postCount": 285,
@@ -77,9 +71,7 @@
           "following": 381,
           "postCount": 285
         }
-      ],
-      "lastAttemptAt": "2026-07-29T18:14:28.636Z",
-      "error": "Instagram returned HTTP 429"
+      ]
     }
   ]
 }
