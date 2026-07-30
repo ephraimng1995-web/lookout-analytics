@@ -74,7 +74,7 @@ async function collect(account) {
 }
 
 const profiles = [];
-for (const account of accounts) {
+for (const account of accounts.filter(account => account.platform === "Instagram")) {
   const previous = previousById.get(account.id) || {};
   try {
     const counts = await collect(account);
