@@ -1,8 +1,8 @@
 {
   "source": "OFM - Daily Earnings",
   "sheetId": "10d9hfGMYy3HupRUG4NgU49ycJogeeBJ6Anqu-jKsuCk",
-  "syncedAt": "2026-07-30T06:07:01Z",
-  "availableFrom": "2026-07-01",
+  "syncedAt": "2026-07-30T07:32:52Z",
+  "availableFrom": "2026-06-01",
   "availableTo": "2026-07-29",
   "currency": "USD",
   "models": [
@@ -10,6 +10,186 @@
       "name": "Carla",
       "handle": "@yourfavouritefilipina",
       "daily": [
+        {
+          "date": "2026-06-01",
+          "netEarning": 760.78,
+          "newSubs": 2,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-02",
+          "netEarning": 162.4,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-03",
+          "netEarning": 134.4,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-04",
+          "netEarning": 150.4,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-05",
+          "netEarning": 389.59,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-06",
+          "netEarning": 128.8,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-07",
+          "netEarning": 483.2,
+          "newSubs": 2,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-08",
+          "netEarning": 66.4,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-09",
+          "netEarning": 67.2,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-10",
+          "netEarning": 283.98,
+          "newSubs": 0,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-11",
+          "netEarning": 287.99,
+          "newSubs": 0,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-12",
+          "netEarning": 195.99,
+          "newSubs": 0,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-13",
+          "netEarning": 154.39,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-14",
+          "netEarning": 90.4,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-15",
+          "netEarning": 765.56,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-16",
+          "netEarning": 68.8,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-17",
+          "netEarning": 674.38,
+          "newSubs": 0,
+          "fansCount": 235
+        },
+        {
+          "date": "2026-06-18",
+          "netEarning": 40.0,
+          "newSubs": 0,
+          "fansCount": 231
+        },
+        {
+          "date": "2026-06-19",
+          "netEarning": 280.8,
+          "newSubs": 1,
+          "fansCount": 232
+        },
+        {
+          "date": "2026-06-20",
+          "netEarning": 171.2,
+          "newSubs": 0,
+          "fansCount": 232
+        },
+        {
+          "date": "2026-06-21",
+          "netEarning": 104.8,
+          "newSubs": 1,
+          "fansCount": 231
+        },
+        {
+          "date": "2026-06-22",
+          "netEarning": 87.2,
+          "newSubs": 1,
+          "fansCount": 232
+        },
+        {
+          "date": "2026-06-23",
+          "netEarning": 128.79,
+          "newSubs": 2,
+          "fansCount": 231
+        },
+        {
+          "date": "2026-06-24",
+          "netEarning": 91.2,
+          "newSubs": 2,
+          "fansCount": 232
+        },
+        {
+          "date": "2026-06-25",
+          "netEarning": 232.0,
+          "newSubs": 1,
+          "fansCount": 232
+        },
+        {
+          "date": "2026-06-26",
+          "netEarning": 88.0,
+          "newSubs": 0,
+          "fansCount": 231
+        },
+        {
+          "date": "2026-06-27",
+          "netEarning": 380.79,
+          "newSubs": 0,
+          "fansCount": 230
+        },
+        {
+          "date": "2026-06-28",
+          "netEarning": 167.2,
+          "newSubs": 2,
+          "fansCount": 229
+        },
+        {
+          "date": "2026-06-29",
+          "netEarning": 149.6,
+          "newSubs": 3,
+          "fansCount": 231
+        },
+        {
+          "date": "2026-06-30",
+          "netEarning": 115.99,
+          "newSubs": 2,
+          "fansCount": 232
+        },
         {
           "date": "2026-07-01",
           "netEarning": 839.99,
@@ -191,6 +371,186 @@
       "handle": "@pinayqueenb",
       "daily": [
         {
+          "date": "2026-06-01",
+          "netEarning": 96.8,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-02",
+          "netEarning": 359.2,
+          "newSubs": 7,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-03",
+          "netEarning": 610.39,
+          "newSubs": 10,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-04",
+          "netEarning": 200.0,
+          "newSubs": 9,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-05",
+          "netEarning": 255.2,
+          "newSubs": 6,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-06",
+          "netEarning": 410.93,
+          "newSubs": 5,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-07",
+          "netEarning": 243.2,
+          "newSubs": 6,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-08",
+          "netEarning": 367.2,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-09",
+          "netEarning": 169.6,
+          "newSubs": 2,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-10",
+          "netEarning": 179.2,
+          "newSubs": 5,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-11",
+          "netEarning": 169.59,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-12",
+          "netEarning": 545.58,
+          "newSubs": 6,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-13",
+          "netEarning": 228.79,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-14",
+          "netEarning": 103.19,
+          "newSubs": 0,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-15",
+          "netEarning": 127.2,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-16",
+          "netEarning": 64.0,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-17",
+          "netEarning": 432.8,
+          "newSubs": 2,
+          "fansCount": 216
+        },
+        {
+          "date": "2026-06-18",
+          "netEarning": 109.6,
+          "newSubs": 4,
+          "fansCount": 217
+        },
+        {
+          "date": "2026-06-19",
+          "netEarning": 287.75,
+          "newSubs": 7,
+          "fansCount": 219
+        },
+        {
+          "date": "2026-06-20",
+          "netEarning": 249.35,
+          "newSubs": 9,
+          "fansCount": 224
+        },
+        {
+          "date": "2026-06-21",
+          "netEarning": 210.39,
+          "newSubs": 7,
+          "fansCount": 222
+        },
+        {
+          "date": "2026-06-22",
+          "netEarning": 80.8,
+          "newSubs": 1,
+          "fansCount": 220
+        },
+        {
+          "date": "2026-06-23",
+          "netEarning": 52.8,
+          "newSubs": 2,
+          "fansCount": 221
+        },
+        {
+          "date": "2026-06-24",
+          "netEarning": 17.6,
+          "newSubs": 1,
+          "fansCount": 222
+        },
+        {
+          "date": "2026-06-25",
+          "netEarning": 252.0,
+          "newSubs": 5,
+          "fansCount": 226
+        },
+        {
+          "date": "2026-06-26",
+          "netEarning": 369.59,
+          "newSubs": 7,
+          "fansCount": 221
+        },
+        {
+          "date": "2026-06-27",
+          "netEarning": 132.8,
+          "newSubs": 2,
+          "fansCount": 220
+        },
+        {
+          "date": "2026-06-28",
+          "netEarning": 100.0,
+          "newSubs": 3,
+          "fansCount": 222
+        },
+        {
+          "date": "2026-06-29",
+          "netEarning": 156.8,
+          "newSubs": 1,
+          "fansCount": 219
+        },
+        {
+          "date": "2026-06-30",
+          "netEarning": 195.2,
+          "newSubs": 2,
+          "fansCount": 220
+        },
+        {
           "date": "2026-07-01",
           "netEarning": 632.0,
           "newSubs": 3,
@@ -370,6 +730,186 @@
       "name": "Jaysie",
       "handle": "@jaysie008",
       "daily": [
+        {
+          "date": "2026-06-01",
+          "netEarning": 8.4,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-02",
+          "netEarning": 2.8,
+          "newSubs": 1,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-03",
+          "netEarning": 8.4,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-04",
+          "netEarning": 11.2,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-05",
+          "netEarning": 188.39,
+          "newSubs": 6,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-06",
+          "netEarning": 184.77,
+          "newSubs": 7,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-07",
+          "netEarning": 65.59,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-08",
+          "netEarning": 5.6,
+          "newSubs": 3,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-09",
+          "netEarning": 22.0,
+          "newSubs": 5,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-10",
+          "netEarning": 93.6,
+          "newSubs": 2,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-11",
+          "netEarning": 67.6,
+          "newSubs": 8,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-12",
+          "netEarning": 79.6,
+          "newSubs": 7,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-13",
+          "netEarning": 27.19,
+          "newSubs": 4,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-14",
+          "netEarning": 19.6,
+          "newSubs": 7,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-15",
+          "netEarning": 14.0,
+          "newSubs": 6,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-16",
+          "netEarning": 83.6,
+          "newSubs": 13,
+          "fansCount": null
+        },
+        {
+          "date": "2026-06-17",
+          "netEarning": 151.2,
+          "newSubs": 3,
+          "fansCount": 103
+        },
+        {
+          "date": "2026-06-18",
+          "netEarning": 5.6,
+          "newSubs": 2,
+          "fansCount": 103
+        },
+        {
+          "date": "2026-06-19",
+          "netEarning": 173.2,
+          "newSubs": 5,
+          "fansCount": 108
+        },
+        {
+          "date": "2026-06-20",
+          "netEarning": 19.6,
+          "newSubs": 7,
+          "fansCount": 113
+        },
+        {
+          "date": "2026-06-21",
+          "netEarning": 119.59,
+          "newSubs": 3,
+          "fansCount": 117
+        },
+        {
+          "date": "2026-06-22",
+          "netEarning": 104.4,
+          "newSubs": 3,
+          "fansCount": 109
+        },
+        {
+          "date": "2026-06-23",
+          "netEarning": 12.4,
+          "newSubs": 3,
+          "fansCount": 121
+        },
+        {
+          "date": "2026-06-24",
+          "netEarning": 68.8,
+          "newSubs": 2,
+          "fansCount": 123
+        },
+        {
+          "date": "2026-06-25",
+          "netEarning": 146.4,
+          "newSubs": 4,
+          "fansCount": 127
+        },
+        {
+          "date": "2026-06-26",
+          "netEarning": 16.8,
+          "newSubs": 6,
+          "fansCount": 130
+        },
+        {
+          "date": "2026-06-27",
+          "netEarning": 113.99,
+          "newSubs": 1,
+          "fansCount": 131
+        },
+        {
+          "date": "2026-06-28",
+          "netEarning": 5.6,
+          "newSubs": 2,
+          "fansCount": 131
+        },
+        {
+          "date": "2026-06-29",
+          "netEarning": 8.4,
+          "newSubs": 2,
+          "fansCount": 131
+        },
+        {
+          "date": "2026-06-30",
+          "netEarning": 67.2,
+          "newSubs": 2,
+          "fansCount": 132
+        },
         {
           "date": "2026-07-01",
           "netEarning": 23.99,
