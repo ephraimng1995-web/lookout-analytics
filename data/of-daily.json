@@ -1,7 +1,7 @@
 {
   "source": "OFM - Daily Earnings",
   "sheetId": "10d9hfGMYy3HupRUG4NgU49ycJogeeBJ6Anqu-jKsuCk",
-  "syncedAt": "2026-07-30T07:32:52Z",
+  "syncedAt": "2026-07-30T08:10:31Z",
   "availableFrom": "2026-06-01",
   "availableTo": "2026-07-29",
   "currency": "USD",
@@ -14,355 +14,414 @@
           "date": "2026-06-01",
           "netEarning": 760.78,
           "newSubs": 2,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 304.312
         },
         {
           "date": "2026-06-02",
           "netEarning": 162.4,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 64.96
         },
         {
           "date": "2026-06-03",
           "netEarning": 134.4,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 53.76
         },
         {
           "date": "2026-06-04",
           "netEarning": 150.4,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 60.16
         },
         {
           "date": "2026-06-05",
           "netEarning": 389.59,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 155.836
         },
         {
           "date": "2026-06-06",
           "netEarning": 128.8,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 51.52
         },
         {
           "date": "2026-06-07",
           "netEarning": 483.2,
           "newSubs": 2,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 193.28
         },
         {
           "date": "2026-06-08",
           "netEarning": 66.4,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 26.56
         },
         {
           "date": "2026-06-09",
           "netEarning": 67.2,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 26.88
         },
         {
           "date": "2026-06-10",
           "netEarning": 283.98,
           "newSubs": 0,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 113.592
         },
         {
           "date": "2026-06-11",
           "netEarning": 287.99,
           "newSubs": 0,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 115.196
         },
         {
           "date": "2026-06-12",
           "netEarning": 195.99,
           "newSubs": 0,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 78.396
         },
         {
           "date": "2026-06-13",
           "netEarning": 154.39,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 61.756
         },
         {
           "date": "2026-06-14",
           "netEarning": 90.4,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 36.16
         },
         {
           "date": "2026-06-15",
           "netEarning": 765.56,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 306.224
         },
         {
           "date": "2026-06-16",
           "netEarning": 68.8,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 27.52
         },
         {
           "date": "2026-06-17",
           "netEarning": 674.38,
           "newSubs": 0,
-          "fansCount": 235
+          "fansCount": 235,
+          "jordanNet": 269.752
         },
         {
           "date": "2026-06-18",
-          "netEarning": 40.0,
+          "netEarning": 40,
           "newSubs": 0,
-          "fansCount": 231
+          "fansCount": 231,
+          "jordanNet": 16
         },
         {
           "date": "2026-06-19",
           "netEarning": 280.8,
           "newSubs": 1,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 112.32
         },
         {
           "date": "2026-06-20",
           "netEarning": 171.2,
           "newSubs": 0,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 68.48
         },
         {
           "date": "2026-06-21",
           "netEarning": 104.8,
           "newSubs": 1,
-          "fansCount": 231
+          "fansCount": 231,
+          "jordanNet": 41.92
         },
         {
           "date": "2026-06-22",
           "netEarning": 87.2,
           "newSubs": 1,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 34.88
         },
         {
           "date": "2026-06-23",
           "netEarning": 128.79,
           "newSubs": 2,
-          "fansCount": 231
+          "fansCount": 231,
+          "jordanNet": 51.516
         },
         {
           "date": "2026-06-24",
           "netEarning": 91.2,
           "newSubs": 2,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 36.48
         },
         {
           "date": "2026-06-25",
-          "netEarning": 232.0,
+          "netEarning": 232,
           "newSubs": 1,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 92.8
         },
         {
           "date": "2026-06-26",
-          "netEarning": 88.0,
+          "netEarning": 88,
           "newSubs": 0,
-          "fansCount": 231
+          "fansCount": 231,
+          "jordanNet": 35.2
         },
         {
           "date": "2026-06-27",
           "netEarning": 380.79,
           "newSubs": 0,
-          "fansCount": 230
+          "fansCount": 230,
+          "jordanNet": 152.316
         },
         {
           "date": "2026-06-28",
           "netEarning": 167.2,
           "newSubs": 2,
-          "fansCount": 229
+          "fansCount": 229,
+          "jordanNet": 66.88
         },
         {
           "date": "2026-06-29",
           "netEarning": 149.6,
           "newSubs": 3,
-          "fansCount": 231
+          "fansCount": 231,
+          "jordanNet": 59.84
         },
         {
           "date": "2026-06-30",
           "netEarning": 115.99,
           "newSubs": 2,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 46.396
         },
         {
           "date": "2026-07-01",
           "netEarning": 839.99,
           "newSubs": 2,
-          "fansCount": 235
+          "fansCount": 235,
+          "jordanNet": 335.996
         },
         {
           "date": "2026-07-02",
           "netEarning": 993.59,
           "newSubs": 1,
-          "fansCount": 232
+          "fansCount": 232,
+          "jordanNet": 397.436
         },
         {
           "date": "2026-07-03",
           "netEarning": 447.2,
           "newSubs": 0,
-          "fansCount": 230
+          "fansCount": 230,
+          "jordanNet": 178.88
         },
         {
           "date": "2026-07-04",
           "netEarning": 642.39,
           "newSubs": 2,
-          "fansCount": 229
+          "fansCount": 229,
+          "jordanNet": 256.956
         },
         {
           "date": "2026-07-05",
-          "netEarning": 136.0,
+          "netEarning": 136,
           "newSubs": 0,
-          "fansCount": 227
+          "fansCount": 227,
+          "jordanNet": 54.4
         },
         {
           "date": "2026-07-06",
           "netEarning": 334.39,
           "newSubs": 1,
-          "fansCount": 228
+          "fansCount": 228,
+          "jordanNet": 133.756
         },
         {
           "date": "2026-07-07",
           "netEarning": 278.4,
           "newSubs": 1,
-          "fansCount": 227
+          "fansCount": 227,
+          "jordanNet": 111.36
         },
         {
           "date": "2026-07-08",
           "netEarning": 687.18,
           "newSubs": 1,
-          "fansCount": 229
+          "fansCount": 229,
+          "jordanNet": 274.872
         },
         {
           "date": "2026-07-09",
           "netEarning": 869.59,
           "newSubs": 1,
-          "fansCount": 228
+          "fansCount": 228,
+          "jordanNet": 347.836
         },
         {
           "date": "2026-07-10",
           "netEarning": 314.4,
           "newSubs": 0,
-          "fansCount": 225
+          "fansCount": 225,
+          "jordanNet": 125.76
         },
         {
           "date": "2026-07-11",
-          "netEarning": 216.0,
+          "netEarning": 216,
           "newSubs": 2,
-          "fansCount": 225
+          "fansCount": 225,
+          "jordanNet": 86.4
         },
         {
           "date": "2026-07-12",
           "netEarning": 183.2,
           "newSubs": 0,
-          "fansCount": 224
+          "fansCount": 224,
+          "jordanNet": 73.28
         },
         {
           "date": "2026-07-13",
           "netEarning": 74.4,
           "newSubs": 1,
-          "fansCount": 223
+          "fansCount": 223,
+          "jordanNet": 29.76
         },
         {
           "date": "2026-07-14",
           "netEarning": 334.4,
           "newSubs": 1,
-          "fansCount": 224
+          "fansCount": 224,
+          "jordanNet": 133.76
         },
         {
           "date": "2026-07-15",
           "netEarning": 194.4,
           "newSubs": 3,
-          "fansCount": 221
+          "fansCount": 221,
+          "jordanNet": 77.76
         },
         {
           "date": "2026-07-16",
           "netEarning": 297.59,
           "newSubs": 0,
-          "fansCount": 221
+          "fansCount": 221,
+          "jordanNet": 119.036
         },
         {
           "date": "2026-07-17",
           "netEarning": 699.2,
           "newSubs": 1,
-          "fansCount": 218
+          "fansCount": 218,
+          "jordanNet": 279.68
         },
         {
           "date": "2026-07-18",
           "netEarning": 356.85,
           "newSubs": 0,
-          "fansCount": 218
+          "fansCount": 218,
+          "jordanNet": 142.74
         },
         {
           "date": "2026-07-19",
           "netEarning": 294.4,
           "newSubs": 0,
-          "fansCount": 218
+          "fansCount": 218,
+          "jordanNet": 117.76
         },
         {
           "date": "2026-07-20",
           "netEarning": 156.8,
           "newSubs": 1,
-          "fansCount": 220
+          "fansCount": 220,
+          "jordanNet": 62.72
         },
         {
           "date": "2026-07-21",
           "netEarning": 190.4,
           "newSubs": 0,
-          "fansCount": 221
+          "fansCount": 221,
+          "jordanNet": 76.16
         },
         {
           "date": "2026-07-22",
           "netEarning": 132.8,
           "newSubs": 1,
-          "fansCount": 223
+          "fansCount": 223,
+          "jordanNet": 53.12
         },
         {
           "date": "2026-07-23",
           "netEarning": 128.8,
           "newSubs": 2,
-          "fansCount": 223
+          "fansCount": 223,
+          "jordanNet": 51.52
         },
         {
           "date": "2026-07-24",
           "netEarning": 219.72,
           "newSubs": 2,
-          "fansCount": 224
+          "fansCount": 224,
+          "jordanNet": 87.888
         },
         {
           "date": "2026-07-25",
           "netEarning": 662.42,
           "newSubs": 1,
-          "fansCount": 223
+          "fansCount": 223,
+          "jordanNet": 264.968
         },
         {
           "date": "2026-07-26",
           "netEarning": 224.79,
           "newSubs": 2,
-          "fansCount": 225
+          "fansCount": 225,
+          "jordanNet": 89.916
         },
         {
           "date": "2026-07-27",
           "netEarning": 236.79,
           "newSubs": 0,
-          "fansCount": 225
+          "fansCount": 225,
+          "jordanNet": 94.716
         },
         {
           "date": "2026-07-28",
           "netEarning": 416.78,
           "newSubs": 5,
-          "fansCount": 229
+          "fansCount": 229,
+          "jordanNet": 166.712
         },
         {
           "date": "2026-07-29",
           "netEarning": 362.39,
           "newSubs": 15,
-          "fansCount": 241
+          "fansCount": 241,
+          "jordanNet": 144.956
         }
       ]
     },
@@ -374,355 +433,414 @@
           "date": "2026-06-01",
           "netEarning": 96.8,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 48.4
         },
         {
           "date": "2026-06-02",
           "netEarning": 359.2,
           "newSubs": 7,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 179.6
         },
         {
           "date": "2026-06-03",
           "netEarning": 610.39,
           "newSubs": 10,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 305.195
         },
         {
           "date": "2026-06-04",
-          "netEarning": 200.0,
+          "netEarning": 200,
           "newSubs": 9,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 100
         },
         {
           "date": "2026-06-05",
           "netEarning": 255.2,
           "newSubs": 6,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 127.6
         },
         {
           "date": "2026-06-06",
           "netEarning": 410.93,
           "newSubs": 5,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 205.465
         },
         {
           "date": "2026-06-07",
           "netEarning": 243.2,
           "newSubs": 6,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 121.6
         },
         {
           "date": "2026-06-08",
           "netEarning": 367.2,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 183.6
         },
         {
           "date": "2026-06-09",
           "netEarning": 169.6,
           "newSubs": 2,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 84.8
         },
         {
           "date": "2026-06-10",
           "netEarning": 179.2,
           "newSubs": 5,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 89.6
         },
         {
           "date": "2026-06-11",
           "netEarning": 169.59,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 84.795
         },
         {
           "date": "2026-06-12",
           "netEarning": 545.58,
           "newSubs": 6,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 272.79
         },
         {
           "date": "2026-06-13",
           "netEarning": 228.79,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 114.395
         },
         {
           "date": "2026-06-14",
           "netEarning": 103.19,
           "newSubs": 0,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 51.595
         },
         {
           "date": "2026-06-15",
           "netEarning": 127.2,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 63.6
         },
         {
           "date": "2026-06-16",
-          "netEarning": 64.0,
+          "netEarning": 64,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 32
         },
         {
           "date": "2026-06-17",
           "netEarning": 432.8,
           "newSubs": 2,
-          "fansCount": 216
+          "fansCount": 216,
+          "jordanNet": 216.4
         },
         {
           "date": "2026-06-18",
           "netEarning": 109.6,
           "newSubs": 4,
-          "fansCount": 217
+          "fansCount": 217,
+          "jordanNet": 54.8
         },
         {
           "date": "2026-06-19",
           "netEarning": 287.75,
           "newSubs": 7,
-          "fansCount": 219
+          "fansCount": 219,
+          "jordanNet": 143.875
         },
         {
           "date": "2026-06-20",
           "netEarning": 249.35,
           "newSubs": 9,
-          "fansCount": 224
+          "fansCount": 224,
+          "jordanNet": 124.675
         },
         {
           "date": "2026-06-21",
           "netEarning": 210.39,
           "newSubs": 7,
-          "fansCount": 222
+          "fansCount": 222,
+          "jordanNet": 105.195
         },
         {
           "date": "2026-06-22",
           "netEarning": 80.8,
           "newSubs": 1,
-          "fansCount": 220
+          "fansCount": 220,
+          "jordanNet": 40.4
         },
         {
           "date": "2026-06-23",
           "netEarning": 52.8,
           "newSubs": 2,
-          "fansCount": 221
+          "fansCount": 221,
+          "jordanNet": 26.4
         },
         {
           "date": "2026-06-24",
           "netEarning": 17.6,
           "newSubs": 1,
-          "fansCount": 222
+          "fansCount": 222,
+          "jordanNet": 8.8
         },
         {
           "date": "2026-06-25",
-          "netEarning": 252.0,
+          "netEarning": 252,
           "newSubs": 5,
-          "fansCount": 226
+          "fansCount": 226,
+          "jordanNet": 126
         },
         {
           "date": "2026-06-26",
           "netEarning": 369.59,
           "newSubs": 7,
-          "fansCount": 221
+          "fansCount": 221,
+          "jordanNet": 184.795
         },
         {
           "date": "2026-06-27",
           "netEarning": 132.8,
           "newSubs": 2,
-          "fansCount": 220
+          "fansCount": 220,
+          "jordanNet": 66.4
         },
         {
           "date": "2026-06-28",
-          "netEarning": 100.0,
+          "netEarning": 100,
           "newSubs": 3,
-          "fansCount": 222
+          "fansCount": 222,
+          "jordanNet": 50
         },
         {
           "date": "2026-06-29",
           "netEarning": 156.8,
           "newSubs": 1,
-          "fansCount": 219
+          "fansCount": 219,
+          "jordanNet": 78.4
         },
         {
           "date": "2026-06-30",
           "netEarning": 195.2,
           "newSubs": 2,
-          "fansCount": 220
+          "fansCount": 220,
+          "jordanNet": 97.6
         },
         {
           "date": "2026-07-01",
-          "netEarning": 632.0,
+          "netEarning": 632,
           "newSubs": 3,
-          "fansCount": 214
+          "fansCount": 214,
+          "jordanNet": 316
         },
         {
           "date": "2026-07-02",
           "netEarning": 669.59,
           "newSubs": 2,
-          "fansCount": 207
+          "fansCount": 207,
+          "jordanNet": 334.795
         },
         {
           "date": "2026-07-03",
-          "netEarning": 264.0,
+          "netEarning": 264,
           "newSubs": 1,
-          "fansCount": 196
+          "fansCount": 196,
+          "jordanNet": 132
         },
         {
           "date": "2026-07-04",
           "netEarning": 650.4,
           "newSubs": 0,
-          "fansCount": 188
+          "fansCount": 188,
+          "jordanNet": 325.2
         },
         {
           "date": "2026-07-05",
-          "netEarning": 176.0,
+          "netEarning": 176,
           "newSubs": 0,
-          "fansCount": 185
+          "fansCount": 185,
+          "jordanNet": 88
         },
         {
           "date": "2026-07-06",
           "netEarning": 659.19,
           "newSubs": 1,
-          "fansCount": 185
+          "fansCount": 185,
+          "jordanNet": 329.595
         },
         {
           "date": "2026-07-07",
           "netEarning": 279.2,
           "newSubs": 1,
-          "fansCount": 186
+          "fansCount": 186,
+          "jordanNet": 139.6
         },
         {
           "date": "2026-07-08",
           "netEarning": 168.8,
           "newSubs": 0,
-          "fansCount": 185
+          "fansCount": 185,
+          "jordanNet": 84.4
         },
         {
           "date": "2026-07-09",
           "netEarning": 810.4,
           "newSubs": 2,
-          "fansCount": 186
+          "fansCount": 186,
+          "jordanNet": 405.2
         },
         {
           "date": "2026-07-10",
           "netEarning": 251.98,
           "newSubs": 3,
-          "fansCount": 187
+          "fansCount": 187,
+          "jordanNet": 125.99
         },
         {
           "date": "2026-07-11",
           "netEarning": 445.59,
           "newSubs": 3,
-          "fansCount": 190
+          "fansCount": 190,
+          "jordanNet": 222.795
         },
         {
           "date": "2026-07-12",
           "netEarning": 417.6,
           "newSubs": 4,
-          "fansCount": 191
+          "fansCount": 191,
+          "jordanNet": 208.8
         },
         {
           "date": "2026-07-13",
           "netEarning": 415.97,
           "newSubs": 5,
-          "fansCount": 196
+          "fansCount": 196,
+          "jordanNet": 207.985
         },
         {
           "date": "2026-07-14",
           "netEarning": 692.8,
           "newSubs": 3,
-          "fansCount": 195
+          "fansCount": 195,
+          "jordanNet": 346.4
         },
         {
           "date": "2026-07-15",
           "netEarning": 566.4,
           "newSubs": 5,
-          "fansCount": 199
+          "fansCount": 199,
+          "jordanNet": 283.2
         },
         {
           "date": "2026-07-16",
-          "netEarning": 576.0,
+          "netEarning": 576,
           "newSubs": 2,
-          "fansCount": 196
+          "fansCount": 196,
+          "jordanNet": 288
         },
         {
           "date": "2026-07-17",
-          "netEarning": 88.0,
+          "netEarning": 88,
           "newSubs": 3,
-          "fansCount": 196
+          "fansCount": 196,
+          "jordanNet": 44
         },
         {
           "date": "2026-07-18",
           "netEarning": 76.8,
           "newSubs": 3,
-          "fansCount": 197
+          "fansCount": 197,
+          "jordanNet": 38.4
         },
         {
           "date": "2026-07-19",
           "netEarning": 249.59,
           "newSubs": 0,
-          "fansCount": 195
+          "fansCount": 195,
+          "jordanNet": 124.795
         },
         {
           "date": "2026-07-20",
           "netEarning": 334.38,
           "newSubs": 3,
-          "fansCount": 199
+          "fansCount": 199,
+          "jordanNet": 167.19
         },
         {
           "date": "2026-07-21",
           "netEarning": 149.6,
           "newSubs": 3,
-          "fansCount": 198
+          "fansCount": 198,
+          "jordanNet": 74.8
         },
         {
           "date": "2026-07-22",
           "netEarning": 170.15,
           "newSubs": 1,
-          "fansCount": 195
+          "fansCount": 195,
+          "jordanNet": 85.075
         },
         {
           "date": "2026-07-23",
           "netEarning": 169.6,
           "newSubs": 1,
-          "fansCount": 198
+          "fansCount": 198,
+          "jordanNet": 84.8
         },
         {
           "date": "2026-07-24",
           "netEarning": 526.11,
           "newSubs": 2,
-          "fansCount": 200
+          "fansCount": 200,
+          "jordanNet": 263.055
         },
         {
           "date": "2026-07-25",
           "netEarning": 227.74,
           "newSubs": 1,
-          "fansCount": 199
+          "fansCount": 199,
+          "jordanNet": 113.87
         },
         {
           "date": "2026-07-26",
-          "netEarning": 472.0,
+          "netEarning": 472,
           "newSubs": 2,
-          "fansCount": 198
+          "fansCount": 198,
+          "jordanNet": 236
         },
         {
           "date": "2026-07-27",
           "netEarning": 178.4,
           "newSubs": 1,
-          "fansCount": 192
+          "fansCount": 192,
+          "jordanNet": 89.2
         },
         {
           "date": "2026-07-28",
           "netEarning": 133.6,
           "newSubs": 2,
-          "fansCount": 192
+          "fansCount": 192,
+          "jordanNet": 66.8
         },
         {
           "date": "2026-07-29",
           "netEarning": 271.99,
           "newSubs": 8,
-          "fansCount": 194
+          "fansCount": 194,
+          "jordanNet": 135.995
         }
       ]
     },
@@ -734,355 +852,414 @@
           "date": "2026-06-01",
           "netEarning": 8.4,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 4.2
         },
         {
           "date": "2026-06-02",
           "netEarning": 2.8,
           "newSubs": 1,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 1.4
         },
         {
           "date": "2026-06-03",
           "netEarning": 8.4,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 4.2
         },
         {
           "date": "2026-06-04",
           "netEarning": 11.2,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 5.6
         },
         {
           "date": "2026-06-05",
           "netEarning": 188.39,
           "newSubs": 6,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 94.195
         },
         {
           "date": "2026-06-06",
           "netEarning": 184.77,
           "newSubs": 7,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 92.385
         },
         {
           "date": "2026-06-07",
           "netEarning": 65.59,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 32.795
         },
         {
           "date": "2026-06-08",
           "netEarning": 5.6,
           "newSubs": 3,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 2.8
         },
         {
           "date": "2026-06-09",
-          "netEarning": 22.0,
+          "netEarning": 22,
           "newSubs": 5,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 11
         },
         {
           "date": "2026-06-10",
           "netEarning": 93.6,
           "newSubs": 2,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 46.8
         },
         {
           "date": "2026-06-11",
           "netEarning": 67.6,
           "newSubs": 8,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 33.8
         },
         {
           "date": "2026-06-12",
           "netEarning": 79.6,
           "newSubs": 7,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 39.8
         },
         {
           "date": "2026-06-13",
           "netEarning": 27.19,
           "newSubs": 4,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 13.595
         },
         {
           "date": "2026-06-14",
           "netEarning": 19.6,
           "newSubs": 7,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 9.8
         },
         {
           "date": "2026-06-15",
-          "netEarning": 14.0,
+          "netEarning": 14,
           "newSubs": 6,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 7
         },
         {
           "date": "2026-06-16",
           "netEarning": 83.6,
           "newSubs": 13,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 41.8
         },
         {
           "date": "2026-06-17",
           "netEarning": 151.2,
           "newSubs": 3,
-          "fansCount": 103
+          "fansCount": 103,
+          "jordanNet": 75.6
         },
         {
           "date": "2026-06-18",
           "netEarning": 5.6,
           "newSubs": 2,
-          "fansCount": 103
+          "fansCount": 103,
+          "jordanNet": 2.8
         },
         {
           "date": "2026-06-19",
           "netEarning": 173.2,
           "newSubs": 5,
-          "fansCount": 108
+          "fansCount": 108,
+          "jordanNet": 86.6
         },
         {
           "date": "2026-06-20",
           "netEarning": 19.6,
           "newSubs": 7,
-          "fansCount": 113
+          "fansCount": 113,
+          "jordanNet": 9.8
         },
         {
           "date": "2026-06-21",
           "netEarning": 119.59,
           "newSubs": 3,
-          "fansCount": 117
+          "fansCount": 117,
+          "jordanNet": 59.795
         },
         {
           "date": "2026-06-22",
           "netEarning": 104.4,
           "newSubs": 3,
-          "fansCount": 109
+          "fansCount": 119,
+          "jordanNet": 52.2
         },
         {
           "date": "2026-06-23",
           "netEarning": 12.4,
           "newSubs": 3,
-          "fansCount": 121
+          "fansCount": 121,
+          "jordanNet": 6.2
         },
         {
           "date": "2026-06-24",
           "netEarning": 68.8,
           "newSubs": 2,
-          "fansCount": 123
+          "fansCount": 123,
+          "jordanNet": 34.4
         },
         {
           "date": "2026-06-25",
           "netEarning": 146.4,
           "newSubs": 4,
-          "fansCount": 127
+          "fansCount": 127,
+          "jordanNet": 73.2
         },
         {
           "date": "2026-06-26",
           "netEarning": 16.8,
           "newSubs": 6,
-          "fansCount": 130
+          "fansCount": 130,
+          "jordanNet": 8.4
         },
         {
           "date": "2026-06-27",
           "netEarning": 113.99,
           "newSubs": 1,
-          "fansCount": 131
+          "fansCount": 131,
+          "jordanNet": 56.995
         },
         {
           "date": "2026-06-28",
           "netEarning": 5.6,
           "newSubs": 2,
-          "fansCount": 131
+          "fansCount": 131,
+          "jordanNet": 2.8
         },
         {
           "date": "2026-06-29",
           "netEarning": 8.4,
           "newSubs": 2,
-          "fansCount": 131
+          "fansCount": 131,
+          "jordanNet": 4.2
         },
         {
           "date": "2026-06-30",
           "netEarning": 67.2,
           "newSubs": 2,
-          "fansCount": 132
+          "fansCount": 132,
+          "jordanNet": 33.6
         },
         {
           "date": "2026-07-01",
           "netEarning": 23.99,
           "newSubs": 0,
-          "fansCount": 131
+          "fansCount": 131,
+          "jordanNet": 11.995
         },
         {
           "date": "2026-07-02",
           "netEarning": 8.4,
           "newSubs": 1,
-          "fansCount": 129
+          "fansCount": 129,
+          "jordanNet": 4.2
         },
         {
           "date": "2026-07-03",
           "netEarning": 55.2,
           "newSubs": 0,
-          "fansCount": 127
+          "fansCount": 127,
+          "jordanNet": 27.6
         },
         {
           "date": "2026-07-04",
           "netEarning": 143.19,
           "newSubs": 0,
-          "fansCount": 124
+          "fansCount": 124,
+          "jordanNet": 71.595
         },
         {
           "date": "2026-07-05",
           "netEarning": 141.57,
           "newSubs": 0,
-          "fansCount": 123
+          "fansCount": 123,
+          "jordanNet": 70.785
         },
         {
           "date": "2026-07-06",
           "netEarning": 15.98,
           "newSubs": 0,
-          "fansCount": 119
+          "fansCount": 119,
+          "jordanNet": 7.99
         },
         {
           "date": "2026-07-07",
           "netEarning": 15.99,
           "newSubs": 0,
-          "fansCount": 112
+          "fansCount": 112,
+          "jordanNet": 7.995
         },
         {
           "date": "2026-07-08",
           "netEarning": 120.4,
           "newSubs": 0,
-          "fansCount": 111
+          "fansCount": 111,
+          "jordanNet": 60.2
         },
         {
           "date": "2026-07-09",
           "netEarning": 111.96,
           "newSubs": 0,
-          "fansCount": 110
+          "fansCount": 110,
+          "jordanNet": 55.98
         },
         {
           "date": "2026-07-10",
-          "netEarning": 16.0,
+          "netEarning": 16,
           "newSubs": 0,
-          "fansCount": 109
+          "fansCount": 109,
+          "jordanNet": 8
         },
         {
           "date": "2026-07-11",
           "netEarning": 79.19,
           "newSubs": 0,
-          "fansCount": 105
+          "fansCount": 105,
+          "jordanNet": 39.595
         },
         {
           "date": "2026-07-12",
           "netEarning": 7.99,
           "newSubs": 0,
-          "fansCount": 102
+          "fansCount": 102,
+          "jordanNet": 3.995
         },
         {
           "date": "2026-07-13",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 98
+          "fansCount": 98,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-14",
           "netEarning": 15.98,
           "newSubs": 0,
-          "fansCount": 93
+          "fansCount": 93,
+          "jordanNet": 7.99
         },
         {
           "date": "2026-07-15",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 89
+          "fansCount": 89,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-16",
           "netEarning": 34.77,
           "newSubs": 0,
-          "fansCount": 85
+          "fansCount": 85,
+          "jordanNet": 17.385
         },
         {
           "date": "2026-07-17",
           "netEarning": 18.78,
           "newSubs": 1,
-          "fansCount": 77
+          "fansCount": 77,
+          "jordanNet": 9.39
         },
         {
           "date": "2026-07-18",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 76
+          "fansCount": 76,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-19",
           "netEarning": 18.78,
           "newSubs": 1,
-          "fansCount": 75
+          "fansCount": 75,
+          "jordanNet": 9.39
         },
         {
           "date": "2026-07-20",
           "netEarning": 15.98,
           "newSubs": 0,
-          "fansCount": 75
+          "fansCount": 75,
+          "jordanNet": 7.99
         },
         {
           "date": "2026-07-21",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 70
+          "fansCount": 70,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-22",
           "netEarning": 7.99,
           "newSubs": 0,
-          "fansCount": 66
+          "fansCount": 66,
+          "jordanNet": 3.995
         },
         {
           "date": "2026-07-23",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 64
+          "fansCount": 64,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-24",
           "netEarning": 7.99,
           "newSubs": 0,
-          "fansCount": 63
+          "fansCount": 63,
+          "jordanNet": 3.995
         },
         {
           "date": "2026-07-25",
           "netEarning": 71.98,
           "newSubs": 0,
-          "fansCount": 64
+          "fansCount": 64,
+          "jordanNet": 35.99
         },
         {
           "date": "2026-07-26",
           "netEarning": 93.55,
           "newSubs": 2,
-          "fansCount": 63
+          "fansCount": 63,
+          "jordanNet": 46.775
         },
         {
           "date": "2026-07-27",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 61
+          "fansCount": 61,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-28",
-          "netEarning": 0.0,
+          "netEarning": 0,
           "newSubs": 0,
-          "fansCount": 59
+          "fansCount": 59,
+          "jordanNet": 0
         },
         {
           "date": "2026-07-29",
           "netEarning": 31.96,
           "newSubs": 0,
-          "fansCount": null
+          "fansCount": null,
+          "jordanNet": 15.98
         }
       ]
     }
