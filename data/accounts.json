@@ -26,5 +26,70 @@
     "handle": "@jackychendaily",
     "displayName": "JackyChenDaily",
     "profileUrl": "https://www.instagram.com/jackychendaily/"
+  },
+  {
+    "id": "x-carlitafilipina",
+    "platform": "X",
+    "handle": "@CarlitaFilipina",
+    "displayName": "Carla",
+    "profileUrl": "https://x.com/CarlitaFilipina",
+    "followers": 1800,
+    "avgViews": 23800,
+    "engagementRate": 5.67,
+    "postCount": 32,
+    "shared": true,
+    "updatedAt": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "x-jaysie008",
+    "platform": "X",
+    "handle": "@Jaysie008",
+    "displayName": "Jaysie",
+    "profileUrl": "https://x.com/Jaysie008",
+    "followers": 692,
+    "avgViews": 60,
+    "engagementRate": 14.95,
+    "postCount": 112,
+    "shared": true,
+    "updatedAt": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "yt-carlita-filipina",
+    "platform": "YouTube",
+    "handle": "@carlita.filipina",
+    "displayName": "Carlita",
+    "profileUrl": "https://www.youtube.com/@carlita.filipina",
+    "followers": 15,
+    "avgViews": 1500,
+    "engagementRate": 0.68,
+    "postCount": 14,
+    "shared": true,
+    "updatedAt": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "yt-jackyy-chen",
+    "platform": "YouTube",
+    "handle": "@jackyy-chen",
+    "displayName": "Jacky",
+    "profileUrl": "https://www.youtube.com/@jackyy-chen",
+    "followers": 19,
+    "avgViews": 1800,
+    "engagementRate": 0.6,
+    "postCount": 16,
+    "shared": true,
+    "updatedAt": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "yt-itsjaysie",
+    "platform": "YouTube",
+    "handle": "@itsjaysie",
+    "displayName": "Jaysie",
+    "profileUrl": "https://www.youtube.com/@jaysie-babe",
+    "followers": 16,
+    "avgViews": 2100,
+    "engagementRate": 0.61,
+    "postCount": 18,
+    "shared": true,
+    "updatedAt": "2026-07-30T00:00:00.000Z"
   }
 ]
