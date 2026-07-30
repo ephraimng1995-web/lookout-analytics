@@ -1,21 +1,27 @@
 {
-  "lastRunAt": "2026-07-29T22:16:19.218Z",
+  "lastRunAt": "2026-07-30T05:31:24.000Z",
   "profiles": [
     {
       "id": "ig-jaysiejay2",
       "platform": "Instagram",
       "handle": "@jaysiejay2",
       "status": "ok",
-      "lastCheckedAt": "2026-07-29T22:16:19.218Z",
-      "followers": 13,
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 14,
       "following": 12,
-      "postCount": 11,
+      "postCount": 12,
       "history": [
         {
           "date": "2026-07-29",
-          "followers": 13,
+          "followers": 15,
           "following": 12,
           "postCount": 11
+        },
+        {
+          "date": "2026-07-30",
+          "followers": 14,
+          "following": 12,
+          "postCount": 12
         }
       ]
     },
@@ -24,16 +30,22 @@
       "platform": "Instagram",
       "handle": "@thisisannacarlita",
       "status": "ok",
-      "lastCheckedAt": "2026-07-29T22:16:19.218Z",
-      "followers": 3959,
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 3945,
       "following": 1,
-      "postCount": 135,
+      "postCount": 136,
       "history": [
         {
           "date": "2026-07-29",
-          "followers": 3959,
+          "followers": 3929,
           "following": 1,
           "postCount": 135
+        },
+        {
+          "date": "2026-07-30",
+          "followers": 3945,
+          "following": 1,
+          "postCount": 136
         }
       ]
     },
@@ -42,16 +54,22 @@
       "platform": "Instagram",
       "handle": "@the.jacky.chen",
       "status": "ok",
-      "lastCheckedAt": "2026-07-29T22:16:19.218Z",
-      "followers": 31403,
-      "following": 323,
-      "postCount": 214,
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 31000,
+      "following": 402,
+      "postCount": 215,
       "history": [
         {
           "date": "2026-07-29",
-          "followers": 31403,
-          "following": 323,
+          "followers": 31000,
+          "following": 402,
           "postCount": 214
+        },
+        {
+          "date": "2026-07-30",
+          "followers": 31000,
+          "following": 402,
+          "postCount": 215
         }
       ]
     },
@@ -60,16 +78,126 @@
       "platform": "Instagram",
       "handle": "@jackychendaily",
       "status": "ok",
-      "lastCheckedAt": "2026-07-29T22:16:19.218Z",
-      "followers": 32636,
-      "following": 315,
-      "postCount": 285,
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 33000,
+      "following": 382,
+      "postCount": 286,
       "history": [
         {
           "date": "2026-07-29",
-          "followers": 32636,
-          "following": 315,
+          "followers": 33000,
+          "following": 381,
           "postCount": 285
+        },
+        {
+          "date": "2026-07-30",
+          "followers": 33000,
+          "following": 382,
+          "postCount": 286
+        }
+      ]
+    },
+    {
+      "id": "x-carlitafilipina",
+      "platform": "X",
+      "handle": "@CarlitaFilipina",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 2507,
+      "following": 7,
+      "avgViews": 39560,
+      "engagementRate": 5.18,
+      "postCount": 32,
+      "history": [
+        {
+          "date": "2026-07-30",
+          "followers": 2507,
+          "following": 7,
+          "avgViews": 39560,
+          "engagementRate": 5.18,
+          "postCount": 32
+        }
+      ]
+    },
+    {
+      "id": "x-jaysie008",
+      "platform": "X",
+      "handle": "@Jaysie008",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 690,
+      "following": 19,
+      "avgViews": 61,
+      "engagementRate": 13.07,
+      "postCount": 114,
+      "history": [
+        {
+          "date": "2026-07-30",
+          "followers": 690,
+          "following": 19,
+          "avgViews": 61,
+          "engagementRate": 13.07,
+          "postCount": 114
+        }
+      ]
+    },
+    {
+      "id": "yt-carlita-filipina",
+      "platform": "YouTube",
+      "handle": "@carlita.filipina",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 15,
+      "avgViews": 1300,
+      "engagementRate": 0.68,
+      "postCount": 14,
+      "history": [
+        {
+          "date": "2026-07-30",
+          "followers": 15,
+          "avgViews": 1300,
+          "engagementRate": 0.68,
+          "postCount": 14
+        }
+      ]
+    },
+    {
+      "id": "yt-jackyy-chen",
+      "platform": "YouTube",
+      "handle": "@jackyy-chen",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 19,
+      "avgViews": 1465,
+      "engagementRate": 0.6,
+      "postCount": 16,
+      "history": [
+        {
+          "date": "2026-07-30",
+          "followers": 19,
+          "avgViews": 1465,
+          "engagementRate": 0.6,
+          "postCount": 16
+        }
+      ]
+    },
+    {
+      "id": "yt-itsjaysie",
+      "platform": "YouTube",
+      "handle": "@itsjaysie",
+      "status": "ok",
+      "lastCheckedAt": "2026-07-30T05:31:24.000Z",
+      "followers": 16,
+      "avgViews": 1537,
+      "engagementRate": 0.61,
+      "postCount": 18,
+      "history": [
+        {
+          "date": "2026-07-30",
+          "followers": 16,
+          "avgViews": 1537,
+          "engagementRate": 0.61,
+          "postCount": 18
         }
       ]
     }
