@@ -1,7 +1,7 @@
 {
   "source": "OFM - Daily Earnings",
   "sheetId": "10d9hfGMYy3HupRUG4NgU49ycJogeeBJ6Anqu-jKsuCk",
-  "syncedAt": "2026-08-03T01:25:49Z",
+  "syncedAt": "2026-08-03T02:04:01Z",
   "availableFrom": "2026-06-01",
   "availableTo": "2026-08-02",
   "currency": "USD",
@@ -1336,14 +1336,14 @@
           "netEarning": 39.98,
           "newSubs": 0,
           "fansCount": 56,
-          "jordanNet": null
+          "jordanNet": 19.99
         },
         {
           "date": "2026-08-02",
           "netEarning": 66.8,
           "newSubs": 1,
           "fansCount": 56,
-          "jordanNet": null
+          "jordanNet": 33.4
         }
       ]
     }
