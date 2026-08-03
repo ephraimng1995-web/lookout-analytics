@@ -61,7 +61,7 @@
       <div class="of-toolbar">
         <label>From<input id="ofStart" type="date" value="2026-07-01"></label>
         <label>To<input id="ofEnd" type="date" value="2026-07-29"></label>
-        <button class="of-preset" id="ofJuly">Full July</button>
+        <button class="of-preset" id="ofCurrentMonth">Current month</button>
       </div>
       <div class="of-kpi-grid" id="ofKpis"></div>
       <div class="of-model-filter" id="ofModelFilter"></div>
@@ -93,7 +93,13 @@
     const platformTerms={OnlyFans:{audience:"fans",item:"post",items:"posts",library:"Content library",secondary:"Subscribers",secondaryHelp:"Authenticated OF analytics"},Instagram:{audience:"followers",item:"post",items:"posts",library:"Published library",secondary:"Following",secondaryHelp:"Public following count"},X:{audience:"followers",item:"post",items:"posts",library:"Post library",secondary:"Following",secondaryHelp:"Public following count"},YouTube:{audience:"subscribers",item:"video",items:"videos",library:"Video library",secondary:"Channels",secondaryHelp:"Public channel count when visible"},TikTok:{audience:"followers",item:"video",items:"videos",library:"Video library",secondary:"Following",secondaryHelp:"Public following count"}};
     const networkOrder=["OnlyFans","Instagram","X","YouTube","TikTok"];
     let sharedAccounts=[],remoteProfiles=[],ofData=null;
-    let platform="All",range="30D",query="",editingKey=null,selectedAccountId=null,selectedModel=null,ofModel="All",ofStart="2026-07-01",ofEnd="2026-07-29";
+    function currentOfMonth(){
+      const parts=Object.fromEntries(new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Manila",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date()).filter(part=>part.type!=="literal").map(part=>[part.type,part.value]));
+      const year=Number(parts.year),month=Number(parts.month),monthText=new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Manila",month:"long"}).format(new Date());
+      return{name:monthText,start:`${parts.year}-${parts.month}-01`,today:`${parts.year}-${parts.month}-${parts.day}`,end:`${parts.year}-${parts.month}-${String(new Date(Date.UTC(year,month,0)).getUTCDate()).padStart(2,"0")}`};
+    }
+    const initialOfMonth=currentOfMonth();
+    let platform="All",range="30D",query="",editingKey=null,selectedAccountId=null,selectedModel=null,ofModel="All",ofStart=initialOfMonth.start,ofEnd=initialOfMonth.today;
     const modelDefs=[
       {name:"Carla",image:"carla.jpg",ofHandle:"yourfavouritefilipina",handles:["thisisannacarlita","carlitafilipina","carlita.filipina","yourfavouritefilipina"]},
       {name:"Jacky",image:"jacky.jpg",ofHandle:"pinayqueenb",handles:["the.jacky.chen","jackychendaily","jackyy-chen","pinayqueenb"]},
@@ -158,8 +164,9 @@
       });
     }
     function renderOnlyFans(){
-      const start=document.querySelector("#ofStart"),end=document.querySelector("#ofEnd");
-      start.min=end.min=ofData?.availableFrom||"2026-07-01";start.max=end.max=ofData?.availableTo||"2026-07-31";start.value=ofStart;end.value=ofEnd;
+      const month=currentOfMonth(),start=document.querySelector("#ofStart"),end=document.querySelector("#ofEnd"),maxDate=[ofData?.availableTo,month.today].filter(Boolean).sort().at(-1);
+      start.min=end.min=ofData?.availableFrom||month.start;start.max=end.max=maxDate;start.value=ofStart;end.value=ofEnd;
+      document.querySelector("#ofCurrentMonth").textContent=`Full ${month.name}`;
       document.querySelector("#ofSyncedAt").textContent=ofData?`Last synced ${shortDate(ofData.syncedAt)} · ${ofData.source}`:"Waiting for the private Google Sheet sync";
       const selectedNames=ofModel==="All"?modelDefs.map(model=>model.name):[ofModel],summaries=selectedNames.map(ofRangeSummary),totalNet=summaries.reduce((sum,item)=>sum+item.netEarning,0),totalSubs=summaries.reduce((sum,item)=>sum+item.newSubs,0),totalFans=summaries.reduce((sum,item)=>sum+Number(item.fansCount||0),0);
       document.querySelector("#ofKpis").innerHTML=`<article class="of-kpi"><span>Net earning</span><strong>${ofData?ofMoney(totalNet):"—"}</strong><small>${ofModel==="All"?"Combined across 3 models":ofModel} · selected dates</small></article><article class="of-kpi"><span>New subs</span><strong>${ofData?compact(totalSubs):"—"}</strong><small>Subscriptions added in the selected dates</small></article><article class="of-kpi"><span>Fans count</span><strong>${ofData?compact(totalFans):"—"}</strong><small>Ending count on the latest available day</small></article>`;
@@ -222,13 +229,13 @@
     document.querySelectorAll("[data-open-profile]").forEach(b=>b.onclick=openAddProfile);document.querySelectorAll("[data-close]").forEach(b=>b.onclick=closeModals);document.querySelectorAll(".modal-bg").forEach(m=>m.onclick=e=>{if(e.target===m)closeModals()});document.querySelector("#notice").onclick=e=>e.currentTarget.classList.remove("show");document.querySelector("#backToNetwork").onclick=closeAccount;
     document.querySelector("#tabs").onclick=e=>{if(!e.target.dataset.platform)return;platform=e.target.dataset.platform;if(platform==="All")selectedModel=null;document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("active",b===e.target));render()};
     document.querySelector("#ranges").onclick=e=>{if(!e.target.dataset.range)return;range=e.target.dataset.range;document.querySelectorAll("#ranges button").forEach(b=>b.classList.toggle("active",b===e.target));document.querySelector("#growthHead").textContent=range+" change";document.querySelector("#period").textContent=range;render()};
-    document.querySelector("#ofStart").onchange=e=>{ofStart=e.target.value||ofData?.availableFrom||"2026-07-01";if(ofStart>ofEnd){ofEnd=ofStart}renderOnlyFans()};
-    document.querySelector("#ofEnd").onchange=e=>{ofEnd=e.target.value||ofData?.availableTo||"2026-07-29";if(ofEnd<ofStart){ofStart=ofEnd}renderOnlyFans()};
-    document.querySelector("#ofJuly").onclick=()=>{ofStart="2026-07-01";ofEnd=ofData?.availableTo||"2026-07-31";renderOnlyFans()};
+    document.querySelector("#ofStart").onchange=e=>{ofStart=e.target.value||ofData?.availableFrom||currentOfMonth().start;if(ofStart>ofEnd){ofEnd=ofStart}renderOnlyFans()};
+    document.querySelector("#ofEnd").onchange=e=>{ofEnd=e.target.value||ofData?.availableTo||currentOfMonth().today;if(ofEnd<ofStart){ofStart=ofEnd}renderOnlyFans()};
+    document.querySelector("#ofCurrentMonth").onclick=()=>{const month=currentOfMonth(),availableTo=ofData?.availableTo;ofStart=month.start;ofEnd=availableTo&&availableTo>=month.start&&availableTo<=month.today?availableTo:month.today;renderOnlyFans()};
     document.querySelector("#search").oninput=e=>{query=e.target.value.toLowerCase().trim();render()};
     document.querySelector("#profileForm").onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),handle=String(f.get("handle")).replace(/^@/,"").trim(),p=f.get("platform"),saved=getSaved(),values={platform:p,handle:"@"+handle,displayName:String(f.get("displayName")).trim()||handle,profileUrl:String(f.get("profileUrl")).trim()||base[p]+handle};if(editingKey){const index=saved.findIndex(a=>accountKey(a)===editingKey);if(index<0){flash("This shared profile cannot be changed here.");return}saved[index]={...saved[index],...values};setSaved(saved);editingKey=null;e.target.reset();closeModals();flash(`${values.handle} updated.`)}else{saved.unshift({id:Date.now(),...values,followers:0,avgViews:0,engagementRate:0,postCount:0,growth:0});setSaved(saved);e.target.reset();closeModals();flash("Public profile added. Log its first visible snapshot next.")}render()};
     document.querySelector("#snapshotForm").onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),saved=getSaved(),source=all().find(x=>String(x.id)===String(f.get("accountId")));let a=saved.find(x=>accountKey(x)===accountKey(source));if(!a){a={...source,id:Date.now(),automated:false};saved.unshift(a)}a.followers=+f.get("followers");a.avgViews=+f.get("avgViews");a.engagementRate=+f.get("engagementRate");a.postCount=+f.get("postCount");a.updatedAt=new Date().toISOString();setSaved(saved);closeModals();flash(`Snapshot saved for ${a.handle}.`);render()};
-    async function loadSharedData(){try{const stamp=Date.now(),[accountsResponse,snapshotsResponse,ofResponse]=await Promise.all([fetch(`data/accounts.json?v=${stamp}`),fetch(`data/snapshots.json?v=${stamp}`),fetch(`data/of-daily.json?v=${stamp}`)]);if(!accountsResponse.ok||!snapshotsResponse.ok)throw new Error("Public snapshot files unavailable");sharedAccounts=await accountsResponse.json();const snapshots=await snapshotsResponse.json();remoteProfiles=snapshots.profiles||[];if(ofResponse.ok){ofData=await ofResponse.json();ofStart=ofData.availableFrom||ofStart;ofEnd=ofData.availableTo||ofEnd}render()}catch{flash("Daily snapshots are temporarily unavailable. Your browser-saved accounts are still shown.")}}
+    async function loadSharedData(){try{const stamp=Date.now(),[accountsResponse,snapshotsResponse,ofResponse]=await Promise.all([fetch(`data/accounts.json?v=${stamp}`),fetch(`data/snapshots.json?v=${stamp}`),fetch(`data/of-daily.json?v=${stamp}`)]);if(!accountsResponse.ok||!snapshotsResponse.ok)throw new Error("Public snapshot files unavailable");sharedAccounts=await accountsResponse.json();const snapshots=await snapshotsResponse.json();remoteProfiles=snapshots.profiles||[];if(ofResponse.ok){ofData=await ofResponse.json();const month=currentOfMonth(),availableTo=ofData.availableTo;ofStart=month.start;ofEnd=availableTo&&availableTo>=month.start&&availableTo<=month.today?availableTo:month.today}render()}catch{flash("Daily snapshots are temporarily unavailable. Your browser-saved accounts are still shown.")}}
     function syncProfileHash(){const match=location.hash.match(/^#account=(.+)$/);if(match){const id=decodeURIComponent(match[1]),a=all().find(item=>String(item.id)===id);if(a){selectedAccountId=id;document.querySelector("#networkDashboard").hidden=true;document.querySelector("#profileView").hidden=false;renderProfile()}}else{selectedAccountId=null;document.querySelector("#profileView").hidden=true;document.querySelector("#networkDashboard").hidden=false}}
     window.onpopstate=syncProfileHash;
     render();loadSharedData().then(syncProfileHash);
