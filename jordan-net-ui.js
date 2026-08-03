@@ -32,10 +32,7 @@
 
       if (!complete) return null;
 
-      return rows.reduce(
-        (sum, row) => sum + Number(row.jordanNet),
-        0
-      );
+      return rows.reduce((sum, row) => sum + Number(row.jordanNet), 0);
     } catch {
       return null;
     }
@@ -56,47 +53,36 @@
   }
 
   function patchCards() {
-    document
-      .querySelectorAll("#ofAccounts .of-account-card")
-      .forEach(card => {
-        const modelName = card.querySelector(".of-account-head strong")
-          ?.textContent
-          ?.trim();
+    document.querySelectorAll("#ofAccounts .of-account-card").forEach(card => {
+      const modelName = card.querySelector(".of-account-head strong")
+        ?.textContent
+        ?.trim();
+      const grid = card.querySelector(".of-stat-grid");
+      if (!modelName || !grid) return;
 
-        const grid = card.querySelector(".of-stat-grid");
-        if (!modelName || !grid) return;
+      let jordanMetric = grid.querySelector(".of-jordan-net");
+      if (!jordanMetric) {
+        jordanMetric = document.createElement("div");
+        jordanMetric.className = "of-metric of-jordan-net";
+        jordanMetric.innerHTML = "<b>—</b><span>Jordan net</span>";
+        const fansMetric = grid.children[2] || null;
+        grid.insertBefore(jordanMetric, fansMetric);
+      }
 
-        let jordanMetric = grid.querySelector(".of-jordan-net");
-
-        if (!jordanMetric) {
-          jordanMetric = document.createElement("div");
-          jordanMetric.className = "of-metric of-jordan-net";
-          jordanMetric.innerHTML = "<b>—</b><span>Jordan net</span>";
-
-          const fansMetric = grid.children[2] || null;
-          grid.insertBefore(jordanMetric, fansMetric);
-        }
-
-        const nextValue = money(selectedJordanNet(modelName));
-        const valueNode = jordanMetric.querySelector("b");
-
-        if (valueNode && valueNode.textContent !== nextValue) {
-          valueNode.textContent = nextValue;
-        }
-      });
+      const nextValue = money(selectedJordanNet(modelName));
+      const valueNode = jordanMetric.querySelector("b");
+      if (valueNode && valueNode.textContent !== nextValue) {
+        valueNode.textContent = nextValue;
+      }
+    });
   }
 
   const accounts = document.querySelector("#ofAccounts");
-
   if (accounts) {
     const observer = new MutationObserver(() => {
       window.requestAnimationFrame(patchCards);
     });
-
-    observer.observe(accounts, {
-      childList: true,
-      subtree: true
-    });
+    observer.observe(accounts, { childList: true, subtree: true });
   }
 
   document.addEventListener("change", event => {
@@ -106,7 +92,7 @@
   });
 
   document.addEventListener("click", event => {
-    if (event.target.closest("[data-of-model], #ofJuly")) {
+    if (event.target.closest("[data-of-model], #ofCurrentMonth")) {
       window.requestAnimationFrame(patchCards);
     }
   });
